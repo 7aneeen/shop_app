@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:shop_app/core/apiService.dart';
+import 'package:shop_app/core/network/apiService.dart';
 import 'package:shop_app/core/errors/failler.dart';
 import 'package:shop_app/core/products/products.dart';
 import 'package:shop_app/features/homescreen/data/repo/category_repo.dart';

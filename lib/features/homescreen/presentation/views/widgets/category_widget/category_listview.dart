@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:shop_app/core/apiService.dart';
+import 'package:shop_app/core/network/apiService.dart';
 import 'package:flutter/material.dart';
 import 'package:shop_app/core/products/products.dart';
 import 'package:shop_app/features/homescreen/data/repo/category_repo_impl.dart';

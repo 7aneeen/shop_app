@@ -35,6 +35,9 @@ dependencies:
   dartz: ^0.10.1
   cached_network_image:
   provider:
+  firebase_core: ^3.4.0  
+  firebase_auth: ^5.2.0
+  carousel_slider:
 
 
   # The following adds the Cupertino Icons font to your application.

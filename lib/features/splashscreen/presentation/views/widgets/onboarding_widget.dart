@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:shop_app/features/authentication/presentation/views/login_screen.dart';
 import 'package:shop_app/features/homescreen/presentation/views/home_screen.dart';
 import 'package:shop_app/features/splashscreen/data/models/content.dart';
 
@@ -77,7 +78,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
             onPressed: () {
               Navigator.pushReplacement(context,
                   MaterialPageRoute(builder: (_) {
-                return HomeScreen();
+                return LoginScreen();
               }));
             },
             style: ElevatedButton.styleFrom(

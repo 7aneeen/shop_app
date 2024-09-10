@@ -19,7 +19,7 @@ class _FavWidgetState extends State<FavWidget> {
     setState(() {
       isOriginalIcon = !isOriginalIcon;
       
-      if (isOriginalIcon) {
+      if (!isOriginalIcon) {
         widget.fav.remove(widget.pfav);
       }
       
